@@ -4,10 +4,8 @@ Python tutorial for tutees in BlackWind at DGIST
 ### Index
 
 0. Install python with Anaconda
-   - Install python with Anaconda
-   - How to use Jupyter Notebook
-
-
+   - [Install python with Anaconda](./Install-python-with-anaconda/Install-python-with-Anaconda.md)
+   - [How to use Jupyter Notebook](./Install-python-with-anaconda/How-to-use-Jupyter-Notebook.md)
 
 1. Python syntax
 
