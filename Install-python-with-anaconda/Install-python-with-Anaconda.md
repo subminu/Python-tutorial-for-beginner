@@ -8,12 +8,12 @@
 
 인터넷에는 좋은 자료들이 많습니다. 해당 영상은 어떻게 Anaconda를 설치하는지 잘 알려주고 있으니, 참고하여주시길 바랍니다.
 
-[![Youtube Thumbnail](https://www.youtube.com/embed/TiYbde4YTPY/0.jpg)](https://www.youtube.com/embed/TiYbde4YTPY?t=0s) 
+[Windows10 Anaconda Installation Guide/How to install Anaconda in Windows10](https://www.youtube.com/embed/TiYbde4YTPY?t=0s)
 
 #### Tip
 
 가끔, 설치하는 경로에 한국어가 포함되어 있으면 설치가 되지 않으니 설치하는 경로에 한국어가 포함되어 있지 않은지 확인해 주세요. (ex C:\User\홍길동\anaconda3 💀)
 
-<img src="../img/anaconda-install-setup1.png" alt="Install directory problem" style="zoom:60%;" />
+<img src="../img/anaconda-install-setup1.png" alt="Install directory problem" style="zoom:50%;" />
 
 
