@@ -9,20 +9,18 @@ Python tutorial for tutees in BlackWind at DGIST
 
 1. Python syntax
 
-   - Variable/Data types
+   - Variables/Data types
 
    - Operators
-
-   - Built-in Data structure
-
-     + Lists
-
-     + Tuples
-
-     + Sets
-
-     + Dictionaries
-
+- Built-in Data structure
+   
+  + Lists
+   
+  + Tuples
+   
+  + Sets
+   
+  + Dictionaries
    - Control flow
 
      + if-else
@@ -30,13 +28,9 @@ Python tutorial for tutees in BlackWind at DGIST
      + for
 
      + while
-
-   - Functions
-
+- Functions
    - Classes/Objects
-
-   - Try/Except
-
+- Try/Except
    - Modules
 
 
