@@ -10,29 +10,20 @@ Python tutorial for tutees in BlackWind at DGIST
 1. Python syntax
 
    - [Variables](./Python-syntax/Variables.ipynb)/[Data types](./Python-syntax/Data-types.ipynb)
-
-   - Operators
-- Built-in Data structure
-  
-  + Lists
-  
-  + Tuples
-  
-  + Sets
-  
-  + Dictionaries
+- [Operators](./Python-syntax/Operators.ipynb)
+   - Type conversion(Typecasting)
+   - Built-in Data structure
+     - Lists
+     - Tuples
+     - Sets
+     - Dictionaries
    - Control flow
-
-     + if-else
-
-     + for
-
-     + while
-- Functions
-   
+     - if-else
+     - for
+     - while
+   - Functions
    - Classes/Objects
-- Try/Except
-   
+   - Try/Except
    - Modules
 
 
