@@ -4,13 +4,13 @@ Python tutorial for tutees in BlackWind at DGIST
 ### Index
 
 0. Install python with Anaconda
-   - [Install python with Anaconda](./0. Install-python-with-anaconda/Install-python-with-Anaconda.md)
-   - [How to use Jupyter Notebook](./0. Install-python-with-anaconda/How-to-use-Jupyter-Notebook.md)
+   - [Install python with Anaconda](./0-Install-python-with-anaconda/Install-python-with-Anaconda.md)
+   - [How to use Jupyter Notebook](./0-Install-python-with-anaconda/How-to-use-Jupyter-Notebook.md)
 
 1. Python syntax
 
-   - [Variables](./1. Python-syntax/Variables.md)/[Data types](./1. Python-syntax/Data-types.md)
-   - [Operators](./1. Python-syntax/Operators.md)
+   - [Variables](./1-Python-syntax/Variables.md)/[Data types](./1-Python-syntax/Data-types.md)
+   - [Operators](./1-Python-syntax/Operators.md)
    - Type conversion(Typecasting)
    - Built-in Data structure
      - Lists
