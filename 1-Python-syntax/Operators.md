@@ -295,4 +295,5 @@ c >> 3 =  0b1001
 >중간에 `bin()`을 보시고 당황하지 않으셨나요?? 기본적으로 bitwise operators의 output 값은 decimal 값으로 반환하도록 되어있습니다. 10진법으로 나타내어진 수를 보고 바로 이해하긴 힘드니, 교육적인 목적으로 `Implicit type conversion`을 진행하였습니다.
 
 팁이라고 알려준다 해놓고 `Implicit type conversion(명시적 형변환)`이라는 새로운 용어를 꺼내들었습니다. 걱정하지마세요. 다음 강의에 배울 내용은 `Type conversion(Type Casting)`에 관련된 내용입니다. 형변환에는 어떠한 종류가 있고(명시적 형변환, 암묵적 형변환) 왜 형변환이 존재햐야하는지 알아보도록 하겠습니다.
+
 [Next-Type conversion(Typecasting)](./Type-conversion(Typecasting).md)
