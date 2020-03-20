@@ -13,7 +13,7 @@
 
 > Tip👀
 >
-> 이번에 알아볼 Data type들은 `text`, `numeric`, `boolean`, `binary`까지이니 나머지 type들은 아 그냥 저런게 있나보다 하고 넘어가주세요!
+> 이번에 알아볼 Data type들은 `text`, `numeric`, `boolean`까지이니 나머지 type들은 아 그냥 저런게 있나보다 하고 넘어가주세요!
 
 ## Text
 일반적으로 생각하는 문자, 문자열(string)을 말합니다. python에서 ""또는 ''로 둘러쌓인 것들 모두를 Text type으로 볼 수 있습니다.
