@@ -143,9 +143,9 @@ print("5 <= 3 : ", 5 < 3)
 >
 > * case 2 : (operand1) `or` (operand2)
 >
-> or`도 마찬가지 입니다. 만약 (operand1)의 값이 `True`라면 컴퓨터는 (operand2)를 계산하지 않고 그 즉시 `True`를 반환하게 됩니다.
+> `or`도 마찬가지 입니다. 만약 (operand1)의 값이 `True`라면 컴퓨터는 (operand2)를 계산하지 않고 그 즉시 `True`를 반환하게 됩니다. 
 >
-> 예시를 보여드릴 테지만 굳이 지금 이해하지 않으셔도 됩니다. [Functions](./Functions.md)를 배우고 오시면 이해하는데 도움이 될 것입니다.
+>  위와 같은 연산을  `lazy elvaluation`이라고 합니다. 예시를 보여드릴 테지만 굳이 지금 이해하지 않으셔도 됩니다. [Functions](./Functions.md)를 배우고 오시면 이해하는데 도움이 될 것입니다.
 >
 > ```python
 > def operand_return_True():
