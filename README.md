@@ -11,7 +11,7 @@ Python tutorial for tutees in BlackWind at DGIST
 
    - [Variables](./1-Python-syntax/Variables.md)/[Data types](./1-Python-syntax/Data-types.md)
    - [Operators](./1-Python-syntax/Operators.md)
-   - Type conversion(Typecasting)
+   - [Type conversion(Typecasting)](./1-Python-syntax/Type-conversion(Typecasting).md)
    - Built-in Data structure
      - Lists
      - Tuples
