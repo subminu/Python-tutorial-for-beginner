@@ -215,3 +215,9 @@ print("10 / 2 = ",10 / 2) # 추가된 예시
 > 여기서 생각해보면 `interpreter`는  프로그램을 실행시키는 도중에 통역사가 되어 컴퓨터에게 실시간으로 번역을 해주고, `compile`은 중간에 거치는 작업 없이 바로 컴퓨터가 이해하고 작동할 수 있도록 합니다.
 >
 > 그렇기 때문에 `interpreter language` 보다 `compile language`가 훨씬 빠르다고 볼 수 있습니다.
+
+다음엔 여태 문서에서 직관적으로 이해만 하라고 넘어갔던 부분들에 대해 짚어 볼 것입니다. Python은 하나의 변수에 여러 데이터를 담을 수 있도록 하는 Data structure들을 기본적으로 구현해놓은 것들이 있습니다. 이를 Built-in Data structure이라고 하는데요. 이 안엔 어떤 종류와 어떠한 구조로 이루어져 있는지 알아 보도록 합시다.
+
+---
+
+[Next-Built-in Data structure](./Built-in-Data-structure.md)

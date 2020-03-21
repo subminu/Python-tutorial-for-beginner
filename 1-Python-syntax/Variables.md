@@ -125,4 +125,6 @@ hello, world!
 
 변수에는 무엇이든 담을 수 있지만, python에서 기본적으로 여러 data type들을 만들어 놓았습니다. 왜 굳이 만들었는지, 어떠한 data type들이 있는지 알아보록 합시다.
 
+---
+
 [Next-Data Types](./Data-types.md)

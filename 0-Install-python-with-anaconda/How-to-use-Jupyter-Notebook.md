@@ -55,3 +55,7 @@ New에서 Python 3를 선택하여 Jupyter Notebook을 생성하셨다면 다음
 python의 기본 출력 함수 print를 사용하여 실행(Run)을 하면 다음과 같이 결과가 cell 밑에 나타나게 됩니다.
 
 이로서 아주 기본적인 Jupyter notebook 생성 방법과 python을 실행 방법을 익혔습니다. 이 외에 좀더 자세한 사용방법은 [여기](http://bitly.kr/0tmjqtNt)에서 확인 할 수 있습니다.
+
+---
+
+[Next-Variables](../1-Python-syntax/Variables.md)

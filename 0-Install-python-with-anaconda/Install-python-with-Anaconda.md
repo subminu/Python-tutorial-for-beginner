@@ -16,4 +16,6 @@
 
 <img src="../img/anaconda-install-setup1.png" alt="Install directory problem" style="zoom:50%;" />
 
+---
 
+[Next-How to use Jupyter Notebook](How-to-use-Jupyter-Notebook.md)
