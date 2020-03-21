@@ -2,8 +2,9 @@
 
 이번에는 형변환에 대해 알아볼 것입니다. 형변환이라 함은 [Data types](./Data-types.md)을 변환하는 것인데요. 저번 문서에서 언급 했듯, 형변환에는 두 종류의 형변환이 존재합니다.
 
-- `Implicit conversion`
-- `Explicit conversion`
+- [`Explicit conversion`](./Type-conversion(Typecasting).md#explicit-conversion)
+
+- [`Implicit conversion`](./Type-conversion(Typecasting).md#implicit-conversion)
 
 저번 문서에서 언급한 `Explicit conversion`부터 보도록 하죠.
 
