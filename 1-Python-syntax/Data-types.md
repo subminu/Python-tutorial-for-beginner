@@ -133,7 +133,7 @@ C/C++같은 경우 메모리에 직접 접근할 수있지만 Python의 경우 "
 
 >Tip👀 
 >
->​    Python과 다르게 C/C++은 엄격하게 data type을 mention하도록 되어 있으며 data type또한 python보다 훨씬 많습니다. [C의 정수 자료형](https://github.com/paxbun/c-cpp-tutorial/tree/master/4-types-and-variables#c%EC%9D%98-%EC%A0%95%EC%88%98-%EC%9E%90%EB%A3%8C%ED%98%95)만 하더라도 얼마나 엄격하게 다루고 있는지 알 수 있습니다.
+>Python과 다르게 C/C++은 엄격하게 data type을 mention하도록 되어 있으며 data type또한 python보다 훨씬 많습니다. [C의 정수 자료형](https://github.com/paxbun/c-cpp-tutorial/tree/master/4-types-and-variables#c%EC%9D%98-%EC%A0%95%EC%88%98-%EC%9E%90%EB%A3%8C%ED%98%95)만 하더라도 얼마나 엄격하게 다루고 있는지 알 수 있습니다.
 
 ### data type끼리의 연산?
 상식적으로 3+5가 8임을 잘 알고 있을 것입니다.
