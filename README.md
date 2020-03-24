@@ -13,7 +13,7 @@ Python tutorial for tutees in BlackWind at DGIST
    - [Operators](./1-Python-syntax/Operators.md)
    - [Type conversion(Typecasting)](./1-Python-syntax/Type-conversion(Typecasting).md)
    - [Built-in Data structure](./1-Python-syntax/Built-in-Data-structure.md)
-     - Lists
+     - [Lists](./1-Python-syntax/Lists.md)
      - Tuples
      - Sets
      - Dictionaries
@@ -22,6 +22,7 @@ Python tutorial for tutees in BlackWind at DGIST
      - for
      - while
    - Functions
+   - Scope
    - Classes/Objects
    - Try/Except
    - Modules
