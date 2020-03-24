@@ -209,7 +209,7 @@ False
 이유는 Data type이 다르기 때문입니다. 3은 `int`, 즉 Numeric type 중 정수 이며 3.0은 `float` 실수이기 때문에 근본적으로 다르다고 보고 `False`라는 최종 결과값이 반환된 것이라고 볼 수 있습니다.
 
 ## Membership operators
-사실 이 부분은 [Built-in Data structure](./Built-in-Data-structure.md)에 대한 부분을 알고 있어야 이해가 쉽지만 다음의 연산자가 있다는 것은 알아두세요.
+사실 이 부분은 [Built-in Data structure](./Built-in-Data-structure.md)에 대한 부분을 알고 있어야 이해가 쉽겠지만 다음의 연산자가 있다는 것은 알아두세요.
 
 | Operatore | Description                                                  |
 | :-------- | :----------------------------------------------------------- |
