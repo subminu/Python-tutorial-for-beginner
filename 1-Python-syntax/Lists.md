@@ -1,6 +1,6 @@
 # Lists
 
-`list`는 여러개의 데이터들을 하나로 모아주는 `data structures`중 하나입니다. 필요에 따라, 특정  `data structure`을 골라서 사용하게 됩니다. 이 `list`에는 어떠한 특성이 있는지 알아보죠.
+`list`는 여러개의 데이터들을 하나로 모아주는 `data structures`중 하나입니다.  이 `list`에는 어떠한 특성이 있는지 알아보죠.
 
 - [Lists' elements can take any types](#Lists'-elements-can-take-any-types)
 - [Lists have order itself](#Lists-have-order-itself)

@@ -14,7 +14,7 @@ Python tutorial for tutees in BlackWind at DGIST
    - [Type conversion(Typecasting)](./1-Python-syntax/Type-conversion(Typecasting).md)
    - [Built-in Data structure](./1-Python-syntax/Built-in-Data-structure.md)
      - [Lists](./1-Python-syntax/Lists.md)
-     - Tuples
+     - [Tuples](./1-Python-syntax/Tuples.md)
      - Sets
      - Dictionaries
    - Control flow
