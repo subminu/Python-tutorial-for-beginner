@@ -19,7 +19,7 @@ d = {1, 2, 3} # set
 
 - [`Lists`](./Lists.md)
 - [`Tuples`](./Tuples.md)
-- [`Sets`](./Set.md)
+- [`Sets`](./Sets.md)
 - [`Dictionaries`](./Dictionaries.md)
 
 ## Type convention(Typecasting)

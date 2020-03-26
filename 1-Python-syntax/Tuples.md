@@ -28,7 +28,7 @@ banana
 
 그렇다면 다른 점은 무엇일까요?
 
-- Tuples' elements are **unchangeable**
+## Tuples' elements are *unchangeable*
 
 `tuple`에 있는 element들은 변하지 못하도록 되어있습니다. 
 
