@@ -15,7 +15,7 @@ Python tutorial for tutees in BlackWind at DGIST
    - [Built-in Data structure](./1-Python-syntax/Built-in-Data-structure.md)
      - [Lists](./1-Python-syntax/Lists.md)
      - [Tuples](./1-Python-syntax/Tuples.md)
-     - Sets
+     - [Sets](./1-Python-syntax/Sets.md)
      - Dictionaries
    - Control flow
      - if-else
