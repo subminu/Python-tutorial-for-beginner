@@ -34,6 +34,8 @@ Traceback (most recent call last):
 TypeError: unhashable type: 'list'
 ```
 
+만약 중복되는 key가 있다고 하면 나중에 선언된 key와 value를 저장하게 됩니다.
+
 ```python
 data = {"apple":1, "cherry":2, "cherry":3 }
 print(data)
@@ -43,8 +45,6 @@ print(data)
 # 출력 결과
 {"apple":1, "cherry":3 }
 ```
-
-만약 중복되는 key가 있다고 하면 나중에 선언된 key와 value를 저장하게 됩니다.
 
 ### values can have any types
 
