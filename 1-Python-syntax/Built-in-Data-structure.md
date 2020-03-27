@@ -120,6 +120,28 @@ type: <class 'dict'> content: {'a' : 1, 'b' : 2, 3 : 'c'} # set은 순서가 바
 >
 > `set`으로 감싸진 element(`{'c' , 3}`)의 경우 순서가 없기 때문에 자신이 원하는 `key`와 `value`값 대로 저장되지 않을 수 있습니다. 그럴 수 있다는 것만 알아두시고 그렇게 쓰는 일은 없도록 합시다.
 
+> Tip👀
+>
+> `dict`에서 `list`로 형변환할 때, key와 value를 같이 저장할 수 있는 방법이 있습니다.
+>
+> | Methods    | Description                              | Example       |
+> | ---------- | ---------------------------------------- | ------------- |
+> | `keys()`   | Return `list` of keys from `dict`        | data.keys()   |
+> | `values()` | Return `list` of values from `dict`      | data.values() |
+> | `items()`  | Return `list` of keys-values from `dict` | data.items()  |
+>
+> ```python
+> data = {'a':1, 'b':2, 'c':3}
+> print(data.items())
+> ```
+>
+> ```python
+> # 출력 결과
+> [('a',1), ('b',2), ('c',3)]
+> ```
+>
+> 단, `items()`의 경우에는 다음과 같이 `tuple`로 `key`와 `value`가 packing되어서 하나의 element를 이루고 있다.
+
 ### Dictionaries ↔ Tuples
 
 `list`와 `tuple`은 구조적인 차이가 없어 "[]"을 "()"로 바꾸어도 똑같이 작동합니다.

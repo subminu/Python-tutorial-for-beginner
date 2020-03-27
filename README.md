@@ -16,7 +16,7 @@ Python tutorial for tutees in BlackWind at DGIST
      - [Lists](./1-Python-syntax/Lists.md)
      - [Tuples](./1-Python-syntax/Tuples.md)
      - [Sets](./1-Python-syntax/Sets.md)
-     - Dictionaries
+     - [Dictionaries](./1-Python-syntax/Dictionaries.md)
    - Control flow
      - if-else
      - for

@@ -3,7 +3,7 @@
 `list`는 여러개의 데이터들을 하나로 모아주는 `data structures`중 하나입니다.  이 `list`에는 어떠한 특성이 있는지 알아보죠.
 
 - [Lists' elements can take any types](#Lists'-elements-can-take-any-types)
-- [Lists have order itself](#Lists-have-order-itself)
+- [Lists are ordered collection](#Lists-are-ordered-collection)
 - [Lists' elements are changeable](#Lists'-elements-are-changeable)
 - [Lists allow duplicate elements](#Lists-allow-duplicate-elements)
 - [Lists are iterable](#Lists-are-iterable)
@@ -33,7 +33,7 @@ print(data)
 >
 > `list`의 element에는 무슨 type이든지 담을 수 있습니다. `list`안에 `list`가 있을 수도 있고, 다른 `data structure`들도 들어갈 수 있습니다! 좀 더 자세한 예시를 보고 싶으시다면 [Bulit-in Data structure](./Built-in-Data-structure.md)의 예시를 참고해 주세요!
 
-## Lists have order itself
+## Lists are ordered collection
 
 `list`에는 순서가 있기 때문에 다음과 같이 `[]`와 같은 `subscipt operator`를 이용하여 원하는 element에 접근할 수 있습니다. 또한 `[]`에 들어가는 **정수**를 `index`라고 합니다.(실수는 안됩니다.)
 
