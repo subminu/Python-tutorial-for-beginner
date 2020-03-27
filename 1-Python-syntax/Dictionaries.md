@@ -3,10 +3,13 @@
 `dict`에서 가장 두드러진 구조라고 할 수 있는 것은 `key`와 `value`가 쌍으로 있어야한다는 점이라고 볼 수 있습니다. 여태 배운 것을 기준으로 말씀 드리면 `list`는 `index`가 `int`이지만 `dict`의 `index`는 `key`라고 말씀드릴 수 있겠네요. 다음의 특징들을 통해 좀 더 자세히 알아 보도록 하겠습니다.
 
 - [Dictionaries are unordered collection of key-value pairs](#Dictionaries-are-unordered-collection-of-key-value-pairs)
+- [Dictionaries are mutable](#Dictionaries-are-mutable)
+- [Dictionaries are iterable](#Dictionaries-are-iterable)
+- [Dictionaries' keywords and methods](#Dictionaries'-keywords-and-methods)
 
 ## Dictionaries are unordered collection of key-value pairs
 
-`dict`은 `set`과 마찬가지로 순서를 가지지 않습니다. 순서를 가지지 않는다는 말은 [Lists - Lists are ordered collection](./Lists.md#Lists-are-ordered-collection)에서 [`start`:`end`:`step`]과 같이 처음과 끝, 간격만으로 원하는 element를 들고 오지 못한다는 말입니다.
+`dict`은 `set`과 마찬가지로 순서를 가지지 않습니다. 순서를 가지지 않는다는 말은 [Lists - Lists are ordered collection](./Lists.md#Lists-are-ordered-collection)에서 [`start` : `end` : `step`]과 같이 처음과 끝, 간격만으로 원하는 element를 들고 오지 못한다는 말입니다.
 
 그렇다면 다음의 예시를 통해 통해 key,value가 각각 무엇인지 살펴보도록 합시다.
 
@@ -108,7 +111,7 @@ b
 c
 ```
 
-이와 같은 문제에 대한 해결하기 위해서는 [Built-in Data structure - Dictionaries ↔ Lists](./Built-in-Data-structure.md#Dictionaries-↔-Lists)에서 배운, `dict`을 `list`로 형변환 시킬 수 있는 methods를 이용하면 됩니다.
+이와 같은 문제에 대한 해결하기 위해서는 [Built-in Data structure - Dictionaries ↔ Lists](./Built-in-Data-structure.md#dictionaries--lists)에서 배운, `dict`을 `list`로 형변환 시킬 수 있는 methods를 이용하면 됩니다.
 
 ```python
 data = {'a':1, 'b':2, 'c':3}
