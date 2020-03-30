@@ -92,7 +92,7 @@ no
 
 > Tip👀
 >
-> 위의 예시를 단순히 `if`문 두 번으로도 구현할 수 있습니다. 그러나, `if`문을 두 번 나누어 쓰게 되는 경우, `interpreter`는 `if`문의 각 condition들을 전부 확인하게 됩니다. (해당 condition이 `True`인지 `False`인지) 
+> 위의 예시를 단순히 `if`문 두 번으로도 구현할 수 있습니다. 그러나, `if`문을 두 번 나누어 쓰는 경우, `interpreter`는 `if`문의 각 condition들을 전부 확인합니다. (해당 condition이 `True`인지 `False`인지)  결과적으로 필요하지 않은 계산을 할 수 있다는 것입니다.
 >
 > 그렇기 때문에 binary condition에서는 if-else 구문을 활용하시는 편이 좋습니다.
 
