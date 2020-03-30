@@ -18,4 +18,4 @@
 
 ---
 
-[Next-How to use Jupyter Notebook](How-to-use-Jupyter-Notebook.md)
+[Go - How to use Jupyter Notebook](How-to-use-Jupyter-Notebook.md)

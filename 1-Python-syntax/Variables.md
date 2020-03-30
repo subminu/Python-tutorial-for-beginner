@@ -127,4 +127,4 @@ hello, world!
 
 ---
 
-[Next-Data Types](./Data-types.md)
+[Go - Data Types](./Data-types.md)

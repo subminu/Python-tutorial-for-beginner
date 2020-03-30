@@ -188,4 +188,4 @@ type: <class 'dict'> content: {'a' : 1, 'c' : 3, 'b' : 2} # 순서가 없어 출
 
 ---
 
-[Next-Control flow](./Control-flow.md)
+[Go - Control flow](./Control-flow.md)

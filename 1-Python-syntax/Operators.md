@@ -298,4 +298,4 @@ c >> 3 =  0b1001
 
 ---
 
-[Next-Type conversion(Typecasting)](./Type-conversion(Typecasting).md)
+[Go - Type conversion(Typecasting)](./Type-conversion(Typecasting).md)

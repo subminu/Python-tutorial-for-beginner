@@ -58,4 +58,4 @@ python의 기본 출력 함수 print를 사용하여 실행(Run)을 하면 다�
 
 ---
 
-[Next-Variables](../1-Python-syntax/Variables.md)
+[Go - Variables](../1-Python-syntax/Variables.md)

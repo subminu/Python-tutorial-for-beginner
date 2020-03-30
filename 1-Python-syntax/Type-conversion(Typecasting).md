@@ -220,4 +220,4 @@ print("10 / 2 = ",10 / 2) # 추가된 예시
 
 ---
 
-[Next-Built-in Data structure](./Built-in-Data-structure.md)
+[Go - Built-in Data structure](./Built-in-Data-structure.md)

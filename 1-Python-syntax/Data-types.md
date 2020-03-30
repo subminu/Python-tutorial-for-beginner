@@ -192,4 +192,4 @@ print("My name is "+"Python") # 왠지 "My name is Python"이 나올것 같다.
 
 ---
 
-[Next-Operators](./Operators.md)
+[Go - Operators](./Operators.md)
