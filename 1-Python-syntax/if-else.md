@@ -63,7 +63,7 @@ return type이 `bool`인 function도 넣을 수 있습니다.
 
 ## else
 
-else에는 특별한 condition을 가지고 실행할지 말지를 정하지 않습니다. 해당 구문은 `if`문 당 하나의 else 구문만 가질 수 있으며, `if` 문에서 실행되지 않는다면 `else`구문을 실행합니다.
+`else`는 condition을 가지지 않으며, `if` 문에서 실행되지 않는다면 `else`구문을 실행합니다. 그렇기 때문에 해당 구문은 `if`문 당 하나의 `else`만 가질 수 있습니다.
 
 ```python
 if <condition>:
