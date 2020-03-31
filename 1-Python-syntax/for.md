@@ -59,7 +59,7 @@ C 23
 >
 > 2. zip(*iterables)
 >
-> `*`은 [`unpacking`](.\Tuples.md#unpacking)에서 다루었지만 간단히 언급만 하자면 parameter 개수에 상관없이 여러개 받을 수 있다는 의미입니다.
+> `*`은 [`unpacking`](./Tuples.md#unpacking)에서 다루었지만 간단히 언급만 하자면 parameter 개수에 상관없이 여러개 받을 수 있다는 의미입니다.
 >
 > ```python
 > names = ['A','B','C']

@@ -19,7 +19,7 @@ Python tutorial for tutees in BlackWind at DGIST
      - [Dictionaries](./1-Python-syntax/Dictionaries.md)
    - [Control flow](./1-Python-syntax/Control-flow.md)
      - [if-else](./1-Python-syntax/if-else.md)
-     - for
+     - [for](./1-Python-syntax/for.md)
      - while
    - Functions
    - Scope
