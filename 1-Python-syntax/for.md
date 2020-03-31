@@ -55,7 +55,7 @@ C 23
 > 2 c
 > ```
 >
-> `iterable`은 순차적으로 접근 가능한 자료형이여야 합니다. 
+> `enumerate`는 start부터 시작하는 숫자를 차례로 각 element와 매칭시키는 역할을 합니다. start가 0부터 시작한다면 값(val)와 index를 동시에 출력을 할 수 있습니다. 여기서 마찬가지로 `iterable`은 순차적으로 접근 가능하여야 합니다.
 >
 > 2. zip(*iterables)
 >
@@ -75,6 +75,7 @@ C 23
 > B 8 female
 > C 23 male
 > ```
+> `zip`은 예시와 같이, 길이가 같은 `iterables`끼리 묶어주는 역할을 합니다. 
 
 ## continue/break 
 
