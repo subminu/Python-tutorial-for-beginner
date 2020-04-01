@@ -77,6 +77,18 @@ C 23
 > ```
 > `zip`은 예시와 같이, 길이가 같은 `iterables`끼리 묶어주는 역할을 합니다. 
 
+## nested for loop
+
+구구단을 출력하는 프로그램을 만들어봅시다. `for`문에서는 다음과 같이 이중으로 `for`을 사용할 수 있습니다.
+
+```python
+for i in range(1,10):
+    for j in range(1,10):
+        print(i*j)
+```
+
+이중 `for`문이 가능한 것처럼 3중, 4중.. 계속 가능은 하지만 코딩을 할때 3중 이상으로 사용하는 일은 잘 없습니다.
+
 ## continue/break 
 
 loop문을 효율적으로 다룰 수 있는 두가지 keywords가 있습니다. 바로 continue와 break인데요. 이는 주로 `if`문과 함께 사용됩니다.
