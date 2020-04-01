@@ -20,7 +20,7 @@ Python tutorial for tutees in BlackWind at DGIST
    - [Control flow](./1-Python-syntax/Control-flow.md)
      - [if-else](./1-Python-syntax/if-else.md)
      - [for](./1-Python-syntax/for.md)
-     - while
+     - [while](./1-Python-syntax/while.md)
    - Functions
    - Scope
    - Classes/Objects
