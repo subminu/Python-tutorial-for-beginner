@@ -22,8 +22,8 @@ Python tutorial for tutees in BlackWind at DGIST
      - [for](./1-Python-syntax/for.md)
      - [while](./1-Python-syntax/while.md)
    - Functions
-   - Scope
    - Classes/Objects
+   - Scope
    - Try/Except
    - Modules
 
@@ -37,7 +37,7 @@ Python tutorial for tutees in BlackWind at DGIST
 
 3. Extra
    - Basic use of git desktop
-   - Basic Linux commend with git bash
+   - Basic use of git with git bash
 
 
 
