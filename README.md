@@ -21,7 +21,7 @@ Python tutorial for tutees in BlackWind at DGIST
      - [if-else](./1-Python-syntax/if-else.md)
      - [for](./1-Python-syntax/for.md)
      - [while](./1-Python-syntax/while.md)
-   - Functions
+   - [Functions](./1-Python-syntax/Functions.md)
    - Classes/Objects
    - Scope
    - Try/Except
