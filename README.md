@@ -22,8 +22,12 @@ Python tutorial for tutees in BlackWind at DGIST
      - [for](./1-Python-syntax/for.md)
      - [while](./1-Python-syntax/while.md)
    - [Functions](./1-Python-syntax/Functions.md)
-   - Classes/Objects
    - Scope
+   - [Object Oriented Programming](./1-Python-syntax/Object-Oriented-Programming.md)
+     - Abstraction
+     - Encapsulation
+     - Inheritance
+     - Polymorphism
    - Try/Except
    - Modules
 

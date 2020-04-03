@@ -11,13 +11,13 @@
 그렇다면 어떻게 `function`을 만들 수 있을까요? 이미 이전 문서의 예시에서 많이 보셨을 것이라 생각됩니다.
 
 ```python
-def <func_name>(<parameters>):
-    """docstring"""
+def <func_name>(<parameters>): # def header:
+    """docstring"""            #     code block
     <commands>
     return <anything>
 ```
 
-`def`는 앞으로  `interpreter`에게 함수를 정의(define)하겠다는 것을 알려주는 역할을 합니다. 또한 `def`가 있는 줄의 마지막을 보시면 `:`가 있습니다. 이는 다음에 `code block`이 올 것이라는 것을 알려주는 역할을 합니다. 사실, `:`은 [Control flow](./Control-flow.md)에서 보았듯이 `code block`이 시작하기 전에 항상 붙어있음을 확인할 수 있습니다.
+`def`는 앞으로  `interpreter`에게 함수를 정의(define)하겠다는 것을 알려주는 역할을 합니다. 또한 `def`는 함수의 `header`가 시작함을 알려주는 keyword이기도 합니다. 있는 줄의 마지막을 보시면 `:`가 있습니다. 이는 함수의 `header`이 끝나고, 다음에 `code block`이 올 것이라는 것을 알려주는 역할을 합니다. 사실, `:`은 [Control flow](./Control-flow.md)에서 보았듯이 `code block`이 시작하기 전에 항상 붙어있음을 확인할 수 있습니다.
 
 ### func_name
 
@@ -170,5 +170,5 @@ caution()
 
 ---
 
-[Go - Classes/Objects](./Class\/Objects.md)
+[Go - Scope](./Scope.md)
 
