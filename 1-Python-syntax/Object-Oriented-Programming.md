@@ -98,7 +98,7 @@ print(type(func))
 
 ### Litaral values
 
-`int`, `float`, `complex`, `str`의 경우 이미 어떠한 method들이 있는지 알고 있습니다. 당장에 [Operators](./Operators)만 하더라도 다양한 method들이 있음을 확인 할 수 있습니다.
+`int`, `float`, `complex`, `str`의 경우 이미 어떠한 method들이 있는지 알고 있습니다. 당장에 [Operators](./Operators.md)만 하더라도 다양한 method들이 있음을 확인 할 수 있습니다.
 
 ### Built-in Data structure
 
