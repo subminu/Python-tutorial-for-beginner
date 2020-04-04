@@ -26,7 +26,7 @@
 
 만약 Python으로 디냥이라는 객체(`Object`)를 만든다고 하면 위와 같은 특성과 행동을 각각 변수와 함수로 구현할 수 있겠죠?
 
-이처럼 `OOP`는 어떠한 객체를 구상할 때,  **추상적으로** 구현하는 것을 전제로 만들게 됩니다. 이와 같은 특성을 **추상화(`abstraction`)**이라고 합니다. 
+이처럼 `OOP`는 어떠한 객체를 구상할 때,  **추상적으로** 구현하는 것을 전제로 만들게 됩니다. 이와 같은 특성을 **추상화 (`abstraction`)**이라고 합니다. 
 
 **추상화(`abstraction`)**을 포함하여 `OOP`에서는 중요한 개념 4가지가 있습니다.
 
@@ -56,7 +56,7 @@ print(type("hello"))
 <class 'str'>
 ```
 
-당시에는 언급하지 않았지만 `type()`이라는 함수는 `type()`의 argument를 받아 해당 parameter는 어떤 class로 만들어진 object인지 알려주는 함수입니다. 이러한 함수가 동작할 수 있는 이유는 모든 data들이 class를 통해 만들어진 `Object`이기 때문에 가능합니다.
+당시에는 언급하지 않았지만 `type()`이라는 함수는 `type()`의 argument를 받으면 해당 parameter가 어떤 class로 만들어진 object인지 알려주는 함수입니다. 이러한 함수가 동작할 수 있는 이유는 모든 data들이 class를 통해 만들어진 `Object`이기 때문에 가능합니다.
 
 물론 Python에서 제공하는 Built-in data sturcture들도 Object입니다.
 
@@ -92,7 +92,7 @@ print(type(func))
 
 당연히 여러분들이 만든 `User-defined Class`으로 만들어낸 객체 또한 `Object`입니다.
 
-혼란스러울 수도 있습니다만 그럴 수록 정의에 입각한 사고로 바라보시면 됩니다. 앞서 말씀드렸다 시피 `Object`는  **`attribute`와 `behavier`들의 집합체**라고 하였습니다.
+혼란스러울 수도 있습니다만 그럴 수록 정의에 입각한 사고로 바라보시면 됩니다. 앞서 말씀드렸다 시피 `Object`는 **`attribute`와 `behavier`들의 집합체**라고 하였습니다.
 
 정의에 따라 모든것이 `Object`인지를 확인해 보도록 합시다. 
 
@@ -120,7 +120,7 @@ print(func.__doc__)
 this is a function
 ```
 
-위와 같이 `""""""`로 적은 함수의 설명이 `__doc__`라는 `instance variable`에 저장되어 있는 것을 확인 할 수 있습니다.
+위와 같이 `""" """`로 적은 함수의 설명이 `__doc__`라는 `instance variable`에 저장되어 있는 것을 확인 할 수 있습니다.
 
 > Tip👀
 >
