@@ -56,7 +56,7 @@
 
 ![scope](../img/scope.png)
 
-색깔별로 namespace에 접근 가능한 영역(scope)를 표시하였습니다. 또한 해당 namespace에 어떤 이름과 객체가 저장되어 있는지 시각적으로 적어두었습니다.
+색깔별로 namespace에 접근 가능한 영역(scope)를 표시하였습니다. 또한 해당 namespace에 어떤 이름과 객체가 저장되어 있는지 적어두었습니다.
 
 ```python
 # 출력 결과
