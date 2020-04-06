@@ -9,7 +9,7 @@ Python tutorial for tutees in BlackWind at DGIST
 
 1. Python syntax
 
-   - [Variables](./1-Python-syntax/Variables.md)/[Data types](./1-Python-syntax/Data-types.md)
+   - [Variables](./1-Python-syntax/Variables.md) & [Data types](./1-Python-syntax/Data-types.md)
    - [Operators](./1-Python-syntax/Operators.md)
    - [Type conversion(Typecasting)](./1-Python-syntax/Type-conversion(Typecasting).md)
    - [Built-in Data structure](./1-Python-syntax/Built-in-Data-structure.md)
@@ -22,13 +22,13 @@ Python tutorial for tutees in BlackWind at DGIST
      - [for](./1-Python-syntax/for.md)
      - [while](./1-Python-syntax/while.md)
    - [Functions](./1-Python-syntax/Functions.md)
-   - Scope
+   - [Scope & Namespace](./1-Python-syntax/Scope-&-Namespace.md)
    - [Object Oriented Programming](./1-Python-syntax/Object-Oriented-Programming.md)
      - Abstraction
      - Encapsulation
      - Inheritance
      - Polymorphism
-   - Try/Except
+   - Try & Except
    - Modules
 
 
