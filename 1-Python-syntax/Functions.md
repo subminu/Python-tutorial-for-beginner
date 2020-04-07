@@ -170,5 +170,5 @@ caution()
 
 ---
 
-[Go - Scope](./Scope.md)
+[Go - Scope & Namesapce](./Scope-&-Namespace.md)
 
