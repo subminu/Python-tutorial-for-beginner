@@ -1,6 +1,6 @@
-# Scope & Namespace
+# Namespace & Scope
 
-이번에는 `Scope`와 `Namespace`에 관하여 알아보도록 하겠습니다. 일단 이 둘의 정의를 살펴보고 각각을 설명하도록 하겠습니다.
+이번에는 `Namespace`와 `Scope`에 관하여 알아보도록 하겠습니다. 일단 이 둘의 정의를 살펴보고 각각을 설명하도록 하겠습니다.
 
 - [Namespace](#Namespace)
 
@@ -68,6 +68,42 @@ end
 ```
 
 마지막에 `search order`을 보시면 local, enclosed, global, built-in 순으로 탐색하게 됩니다. a의 경우를 보시면, local namespace에는 c 밖에 없음으로 다음 namespace인 enclosed로 옮겨서 탐색하지만 b 밖에 없기 때문에 global namespace로 까지 옮겨저서 해당 namespace에 있는 a : 1을 찾아 내어 출력되게 됩니다. 이와 같은 흐름으로 b,c,`print()`가 각각 어디서 참조되어 불리는지 알 수 있을 것입니다.
+
+namespace와 scope란 개념이 절대적인 개념은 아닙니다. 다음의 간단한 예제를 살펴보도록 합시다.
+
+```python
+a = 1
+```
+
+a는 global namespace에 저장되어 있습니다. 이를 확인 하는 방법은 다음과 같습니다.
+
+```python
+print(globals())
+```
+
+```python
+# 출력 결과
+{'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'a': 1}
+```
+
+뭐가 뭔진 모르겠지만 global namespace는 `dict`으로 구현되어 있으면서 앞서 정의한 `a`의 값이 1로 할당 되어 있는 것을 확인 할 수 있습니다.
+
+```python
+print(a)
+```
+
+위의 코드를 실행하였을 때, 출력 결과에서는 당연히 1이 나올 것이라 예상할 수 있습니다. 여기서 a라는 값이 무엇인지 찾기 위해 local namespace부터 찾으려고 할 것입니다. local namespace 또한 확인 하는 방법이 있습니다.
+
+```python
+print(locals())
+```
+
+```python
+# 출력 결과
+{'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'a': 1}
+```
+
+출력 결과가 global namespace와 동일합니다. 이처럼 부르고자 하는 코드를 포함한 `code block`이 local로 되는 것입니다.
 
 ---
 

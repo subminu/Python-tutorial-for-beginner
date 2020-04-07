@@ -22,9 +22,9 @@ Python tutorial for tutees in BlackWind at DGIST
      - [for](./1-Python-syntax/for.md)
      - [while](./1-Python-syntax/while.md)
    - [Functions](./1-Python-syntax/Functions.md)
-   - [Scope & Namespace](./1-Python-syntax/Scope-&-Namespace.md)
+   - [Namesapce & Scope](./1-Python-syntax/Namespace-&-Scope.md)
    - [Object Oriented Programming](./1-Python-syntax/Object-Oriented-Programming.md)
-     - Abstraction
+     - [Abstraction](./1-Python-syntax/Abstraction.md)
      - Encapsulation
      - Inheritance
      - Polymorphism
