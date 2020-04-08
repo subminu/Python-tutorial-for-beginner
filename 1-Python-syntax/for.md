@@ -77,6 +77,24 @@ C 23
 > ```
 > `zip`은 예시와 같이, 길이가 같은 `iterables`끼리 묶어주는 역할을 합니다. 
 
+## for with range()
+
+range( `start`, `end`, `step ` )
+
+`range()`는 `start`부터 시작하여 `end-1`까지 `step`만큼 커지면서 생성되는 `lazy sequence`입니다. lazy sequence가 무엇인지 지금 당장 이해할 필요는 없습니다. 다음의 예시를 통해서 어떻게 사용되는지 이해할 수 있으면 충분합니다.
+
+```python
+for i in range(5,10,2):
+    print(i)
+```
+
+```python
+# 출력 결과
+5
+7
+9
+```
+
 ## nested for loop
 
 구구단을 출력하는 프로그램을 만들어봅시다. `for`문에서는 다음과 같이 이중으로 `for`을 사용할 수 있습니다.

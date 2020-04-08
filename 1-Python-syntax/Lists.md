@@ -130,21 +130,6 @@ range(0,100)
 >
 > 여기까지 읽으셨으면 대단하신 분이십니다. 실제로 어떻게 구현되는지는 memory의 구조,  pointer, iterator에 대한 기본적인 지식이 필요합니다. 이를 python에서 배우는 것은 비효율적일 뿐더러 기초에서 벗어나는 것이라 생각됩니다. 
 
-```python
-for i in range(5,10,2):
-    print(i)
-```
-
-```python
-# 출력 결과
-5
-7
-9
-```
-
-range( `start`, `end`, `step ` )
-
-range에도 `start`부터 `end-1`까지 `step`으로 좀 더 간편하게 원하는 `list(lazy sequence)`를 만들 수 있습니다. 좀 더 다양한 예시는 [for](./for.md)에서 다루도록 하겠습니다.
 
 ## Lists' elements are changeable
 
