@@ -25,7 +25,7 @@ Python tutorial for tutees in BlackWind at DGIST
    - [Namesapce & Scope](./1-Python-syntax/Namespace-&-Scope.md)
    - [Object Oriented Programming](./1-Python-syntax/Object-Oriented-Programming.md)
      - [Abstraction](./1-Python-syntax/Abstraction.md)
-     - Encapsulation
+     - [Encapsulation](./1-Python-syntax/Encapsulation.md)
      - Inheritance
      - Polymorphism
    - Try & Except
