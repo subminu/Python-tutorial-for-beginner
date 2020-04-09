@@ -1,5 +1,7 @@
 # Install python with Anaconda🐍
 
+Anaconda가 무엇이고 어떻게 설치하는지 알아봅시다.
+
 ## What is Anaconda?
 
 아나콘다(Anaconda)는 패키지 관리와 배포를 단순케 할 목적으로 만든 자유-오픈 소스 배포판입니다. 아나콘다를 설치하면 Python 뿐만 아니라 data science, mathematics 등등에 필요한 여러 package들도 같이 설치되어 사용에 용이하다는 점이 있습니다. (Jupyter notebook 또한 같이 설치됩니다.)
@@ -12,9 +14,11 @@
 
  > Tip👀
 >
->가끔, 설치하는 경로에 한국어가 포함되어 있으면 설치가 되지 않으니 설치하는 경로에 한국>어가 포함되어 있지 않은지 확인해 주세요. (ex C:\User\홍길동\anaconda3 💀)
+>가끔, 설치하는 경로에 한국어가 포함되어 있으면 설치가 되지 않으니 설치하는 경로에 한국어가 포함되어 있지 않은지 확인해 주세요. (ex C:\User\홍길동\anaconda3 💀)
 >
-><img src="../img/anaconda-install-setup1.png" alt="Install directory problem"  /> 
+><center><img src="../img/anaconda-install-setup1.png" alt="Install directory problem" /></center>
+
+다음에는 통합개발환경(IDE)중 하나인 Jupter Notebook의 사용법에 대해 알아보도록 합시다.
 
 ---
 
