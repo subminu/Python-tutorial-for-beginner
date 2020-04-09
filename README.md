@@ -26,7 +26,7 @@ Python tutorial for tutees in BlackWind at DGIST
    - [Object Oriented Programming](./1-Python-syntax/Object-Oriented-Programming.md)
      - [Abstraction](./1-Python-syntax/Abstraction.md)
      - [Encapsulation](./1-Python-syntax/Encapsulation.md)
-     - Inheritance
+     - [Inheritance](./1-Python-syntax/Inheritance.md)
      - Polymorphism
    - Try & Except
    - Modules
