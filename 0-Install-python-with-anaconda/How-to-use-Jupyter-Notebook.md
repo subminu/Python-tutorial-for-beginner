@@ -30,7 +30,7 @@ jupyter notebook
 
 ![jupyter notebook creation](../img/jupyter-notebook2.png)
 
-> Tip
+> Tip👀
 >
 > 만약 바탕화면에다 새로운 Jupter Notebook을 생성하고 싶다면 /Desktop 에서 New 버튼을 클릭하시면 됩니다. 
 
