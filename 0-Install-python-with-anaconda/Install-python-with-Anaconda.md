@@ -14,7 +14,7 @@
 >
 >가끔, 설치하는 경로에 한국어가 포함되어 있으면 설치가 되지 않으니 설치하는 경로에 한국>어가 포함되어 있지 않은지 확인해 주세요. (ex C:\User\홍길동\anaconda3 💀)
 >
-><img src="../img/anaconda-install-setup1.png" alt="Install directory problem" style="zoom:50%;" /> 
+><img src="../img/anaconda-install-setup1.png" alt="Install directory problem"  /> 
 
 ---
 
