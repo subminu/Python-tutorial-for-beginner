@@ -1,6 +1,8 @@
 # How to use Jupyter Notebook🤔
 
-#### Launching Jupyter Notebook
+이번 문서에서는 Jupyter Notebook을 어떻게 사용하는지에 대해 알아볼 것입니다.
+
+## Launching Jupyter Notebook
 
 아나콘다를 설치하셨다면, Win + S를 누르고 난 뒤, cmd를 검색하도록 합시다. 
 
@@ -22,7 +24,7 @@ jupyter notebook
 
 
 
-#### Create Jupyter Notebook
+## Create Jupyter Notebook
 
 이제 거의 다 왔습니다. 자신이 개발하고자 하는 작업 위치에 간 후 우측 상단에 있는 New 버튼을 누르시면 다음과 같은 리스트들이 보여집니다. 여기서, Python 3를 클릭하시면 jupyter Notebook을 생성할 수 있습니다.
 
@@ -34,7 +36,7 @@ jupyter notebook
 
 
 
-#### Basic use of Jupyter Notebook
+## Basic use of Jupyter Notebook
 
 New에서 Python 3를 선택하여 Jupyter Notebook을 생성하셨다면 다음과 같을 것입니다.
 
