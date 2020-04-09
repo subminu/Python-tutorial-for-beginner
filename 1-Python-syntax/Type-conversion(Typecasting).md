@@ -35,9 +35,9 @@ print(string)
 10
 ```
 
-흠 출력은 했는데 이게 타입이 바뀐건지 안 바뀐건지 알 수가 없습니다. 제대로 확인하고 싶은데 확인할 방법은 없을까요? 
+출력은 했는데 이게 타입이 바뀐건지 안 바뀐건지 알 수가 없습니다. 제대로 확인하고 싶은데 확인할 방법은 없을까요? 
 
-### `type()` function 
+### `type()` 
 
 Python에는 해당 변수가 어떤 type인지 알 수 있도록 하는  `function`이 있습니다. 아직 `function`이 정확히 뭔지 모르겠지만 사용방법을 보면서 대충 어떤 기능이 있는지 알아보도록 합시다.
 
@@ -54,7 +54,7 @@ print(type(string))
 <class 'str'>
 ```
 
-출력 결과에서 아는 단어만 봅시다. 첫 번째 출력 결과에 `int`라는 글자를 확인하였고 `str()`명령어 이후 `str`이라는 글자를 확인 할 수 있었습니다. 흠..`type()`는 무엇인지는 잘 모르겠지만 저런식의 출력 결과로 Data type을 말해주는 구나 정도로 이해하면 되겠습니다.
+출력 결과에서 아는 단어만 봅시다. 첫 번째 출력 결과에 `int`라는 글자를 확인하였고 `str()`명령어 이후 `str`이라는 글자를 확인 할 수 있었습니다. `type()`는 무엇인지는 잘 모르겠지만 저런식의 출력 결과로 Data type을 말해주는 구나 정도로 이해하면 되겠습니다.
 
 ```python
 string = "blackwind"
@@ -74,7 +74,7 @@ ValueError                                Traceback (most recent call last)
 ValueError: invalid literal for int() with base 10: 'blackwind'
 ```
 
-결과는 보이는 것과 같이 에러가 뜹니다. 문자열에 순수 숫자 이외에 다른 문자가 하나라도 들어가 있으면 이렇게 10진수의 숫자로 바꿀 수 없다고 말합니다.
+결과는 보이는 것과 같이 에러가 뜹니다. 문자열에 순수 숫자 이외에 다른 문자가 하나라도 들어가 있으면 이렇게 10진수의 숫자로 바꿀 수 없다고 error를 발생시킵니다.
 
 에러를 자세히 보니 `int()`는 기본적으로 정수를 10진법으로 바꿔주는 역할을 하는가 보네요? 컴퓨터는 2진수, 8진수, 16진수를 지원한다고 했는데 걔네들을 위한 형변환은 없을까요? 
 
@@ -119,7 +119,7 @@ bool(0) : False
 bool(-2.2) : True
 ```
 
-`Numeric  type`에서는 0은 `False`  나머지는 전부 `True`로 형변환이 됩니다.
+`Numeric type`에서는 0은 `False`  나머지는 전부 `True`로 형변환이 됩니다.
 
 ```python
 print("bool('hello') :",bool('hello'))
@@ -132,9 +132,9 @@ bool('hello') : True
 bool('') : False
 ```
 
-`Text type`은 "" 나 ' ' 안에 아무것도 들어있지 않으면 `False` 나머지는 전부 `True`로 형변환이 됩니다.
+`Text type`은 빈 문자열에 대해 `False`를, 나머지는 전부 `True`로 형변환이 됩니다.
 
-`Sequence`, `Mapping`, `Set` type은 아직 배우지 않았지만 방식은 비슷합니다. 예시를 보고 그냥 그렇구나를 이해해 주세요.
+`Sequence`, `Mapping`, `Set`은 아직 배우지 않았지만 비어있으면 `False`를, 나머지 경우에는 `True`를 반환합니다. 예시를 보고 그냥 그렇구나하고 이해해 주세요.
 
 ```python
 # list
@@ -172,7 +172,7 @@ bool(set(1,2,3)) : True
 
 사실 여러분들은 여태 문서를 꼼꼼히 읽고 오셨다면 `Implicit conversion`에 대한 예시 또한 보고 오셨을 것입니다. 
 
-처음 보는 단어인데 어떻게 이해하면서 넘어갈 수 있었는지 궁금하실 겁니다. 다음은 [Data types](./Operators.md#arithmetic-operators)에서 `Implicit conversion`가 일어난 예시입니다.
+다음은 [Operators - arithmetic operators](./Operators.md#arithmetic-operators)에서 `Implicit conversion`가 일어난 예시입니다.
 
 ```python
 # 여려분이 알고 있는 수학적 지식에서 벗어나지 않습니다.

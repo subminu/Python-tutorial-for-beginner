@@ -71,7 +71,7 @@ print("10 % 7 = ",10 % 7)
 뭔가 종류도 많아 보이기도 하지만 실상은 "=" 연산자와 다른 연산자와의 축약형이라고 볼 수 있습니다. 아직 배우지 않은 연산자와 처음 보는 연산자가 있어도 당황하지 마세요.
 
 ## Comparison operators
-비교 연산자라고 하죠? [Variables](./Variables.md#Variables)에서 할당 연산자인 "="이 흔히 알고 있는 같다의 의미가 아니라서 어리둥절 했을 텐데요. 다음의 연산자 표를 통해 같다의 의미를 가진 연산자가 무엇인지 알 수 있을 것입니다.
+[Variables](./Variables.md#Variables)에서 할당 연산자인 "="이 흔히 알고 있는 같다의 의미가 아니라서 어리둥절 했을 텐데요. 다음의 연산자 표를 통해 같다의 의미를 가진 연산자가 무엇인지 알 수 있을 것입니다.
 
 | Operatore | Mean                      | Example |
 | :-------- | :------------------------ | :------ |
@@ -82,9 +82,9 @@ print("10 % 7 = ",10 % 7)
 | `>=`      | Grearter than or equal to | x >= y  |
 | `<=`      | Less than or equal to     | x <= y  |
 
-여기서 주의해야할 점은 `!=`, `>=`, `<=`을 할당 연산자의 축약형으로 착각하면 안된다는 점입니다. 그러나 직관적으로 이해가 되는 연산자라 그럴 일은 없겠죠..?😊
+여기서 주의해야할 점은 `!=`, `>=`, `<=`을 할당 연산자의 축약형으로 착각하면 안된다는 점입니다. 그러나 직관적으로 이해가 되는 연산자라고 생각됩니다.
 
->Tip👀 
+> Tip👀 
 >
 >다음의 예시를 살펴 봅시다.
 >``` python
@@ -137,7 +137,7 @@ print("5 <= 3 : ", 5 < 3)
 > 여기서 조심해야할 점이 있습니다. 컴퓨터가 직접 `and`, `or` operator를 수행할 때를 가정하면서 생각해보겠습니다.
 >
 >
-> * case 1 : (operand1) and (operand2)
+> * case 1 : (operand1) `and` (operand2)
 >
 > 만약 (operand1)의 값이 `False`라면 컴퓨터는 (operand2)를 계산할까요? 정답은 계산하지 않습니다. (operand1)에서 `False`가 나오면 그 즉시 `False`를 반환하게 됩니다.
 >
@@ -165,10 +165,8 @@ print("5 <= 3 : ", 5 < 3)
 > print("---------- end -----------")
 > ```
 >
->   
->
 > ```python
-> # 출력 결과
+># 출력 결과
 > --- start case 1 : and ---
 > operand_return_False() was ran.
 > False
@@ -181,7 +179,7 @@ print("5 <= 3 : ", 5 < 3)
 
 
 ## Identity operators
-사실 이 부분은 [Class/Objects](./Class-Object.md)를 배우고 나서야 제대로 이해할 수 있을 것이라 생각하지만 종류를 알려드리자면 다음과 같습니다.
+사실 이 부분은 [OOP](./Object-Oriented-Programming.md)를 배우고 나서야 제대로 이해할 수 있을 것이라 생각하지만 종류를 알려드리자면 다음과 같습니다.
 
 | Operatore | Description                                                  |
 | :-------- | :----------------------------------------------------------- |
@@ -206,7 +204,7 @@ False
 
 위의 예시를 보면, `3 is 3`와 `"debugging" is "happy"`가 왜 각각 `True`와 `False`가 나왔는지 바로 이해가 가실 겁니다. 자명하게 같은 것과 내용이 다른 두 문자열을 비교하고 있으니까요. 그러나 `3 is 3.0`의 경우는 조금 다릅니다. 둘 다 분명 3을 말하는 것 같은데 왜 같지 않다고 말하는 걸까요? 
 
-이유는 Data type이 다르기 때문입니다. 3은 `int`, 즉 Numeric type 중 정수 이며 3.0은 `float` 실수이기 때문에 근본적으로 다르다고 보고 `False`라는 최종 결과값이 반환된 것이라고 볼 수 있습니다.
+이유는 Data type(Class)가 다르기 때문입니다. 3은 `int`, 즉 Numeric type 중 정수 이며 3.0은 `float` 실수이기 때문에 근본적으로 다르다고 보고 `False`라는 최종 결과값이 반환된 것이라고 볼 수 있습니다.
 
 ## Membership operators
 사실 이 부분은 [Built-in Data structure](./Built-in-Data-structure.md)에 대한 부분을 알고 있어야 이해가 쉽겠지만 다음의 연산자가 있다는 것은 알아두세요.
@@ -248,7 +246,7 @@ True
 | `<<`      | Zero fill left shift | Shift left by pushing zeros in from the right and let the leftmost bits fall off |
 | `>>`      | Signed right shift   | Shift right by pushing copies of the leftmost bit in from the left, and let the rightmost bits fall off |
 
-여기서 Name이 OR에 해당하는 "\|"은 Ender 키 위에 있는 \와 shift를 같이 누르면 칠 수 있습니다. 예시를 통해 이해해도록 하죠. 혹시나 python에서 이진수를 표현하는 방법을 모르시는 분은 [Numeric](./Data-types.md#Numeric)을 보고 와주세요!
+여기서 Name이 OR에 해당하는 "\|"은 Ender 키 위에 있는 \와 shift를 같이 누르면 칠 수 있습니다. 예시를 통해 이해해도록 하죠. 혹시나 python에서 이진수를 표현하는 방법을 모르시는 분은 [Data-types - Numeric](./Data-types.md#Numeric)을 보고 와주세요!
 
 
 ```python

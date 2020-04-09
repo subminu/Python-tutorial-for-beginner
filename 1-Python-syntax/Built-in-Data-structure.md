@@ -1,6 +1,6 @@
 # Built-in Data structure
 
-`Data structure`이라는 것은 무엇일까요? 먼저 데이터 하나를 저장하려면 어떻게 하면 됐었는지 떠올려 봅시다.([Variables](./Variables.md)에도 나와있습니다!)
+`Data structure`이라는 것은 무엇일까요? 먼저 데이터 하나를 저장하려면 어떻게 하면 됐었는지 떠올려 봅시다([Variables](./Variables.md)에도 나와있습니다!).
 
 ```python
 a = 3
