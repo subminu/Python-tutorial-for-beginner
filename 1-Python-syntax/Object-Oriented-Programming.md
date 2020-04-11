@@ -131,6 +131,8 @@ this is a function
 > ```
 >
 
+드디어 python의 끝이 보이기 시작하는 것 같습니다. 다음 문서에서는 여태 나왔었던 error들이 어떻게 출력되는지, error에는 어떠한 종류가 있는지, 사용자 정의 error를 만드는 방법에 대해 소개해 드리도록 하겠습니다.
+
 ---
 
 [Go - Try/Except](./Try\/Except.md)
