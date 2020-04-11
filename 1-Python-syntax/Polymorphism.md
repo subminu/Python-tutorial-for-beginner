@@ -100,7 +100,7 @@ woof
 
 사용자 입장에선 똑같은 `make_sound()`를 이용하여 울음소리를 출력하는 것처럼 보입니다.
 
-### Method Overriding
+### Method overriding
 
 상속(inheritance)에서 polymorphism을 지원한다고 생각해봅시다.
 
@@ -130,7 +130,7 @@ studying
 
 다음과 같이 Human에서 이미 정의한 method, `do_something()`을 Student class에선 다르게 구현하고 싶을때 base(parent) class에서 정의한 method의 이름과 똑같이 적고 마치 정의를 덮어 쓰는 것 마냥 정의하는 것을 method overriding이라고 합니다.
 
-### Special method Overriding
+### Special method overriding
 
 Special method란 `__(something)__`에서 underscore 두개로 둘러싸인 예약된 method들을 뜻합니다. 익숙한 예시들을 보도록 합시다.
 

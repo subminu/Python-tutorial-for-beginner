@@ -98,7 +98,7 @@ print(type(func))
 
 ### Litaral values
 
-`int`, `float`, `complex`, `str`의 경우 이미 어떠한 method들이 있는지 알고 있습니다. 당장에 [Operators](./Operators.md)만 하더라도 다양한 method들이 있음을 확인 할 수 있습니다.
+`int`, `float`, `complex`, `str`의 경우 이미 어떠한 method들이 있는지 알고 있습니다. 당장에 [Operators](./Operators.md)만 하더라도 다양한 method들이 있음을 확인 할 수 있습니다. [Polymorphism - Special method overriding](./Polymorphism.md#Special-method-overriding)에서 다뤘다시피 operators도 special method를 호출하여 계산되어 집니다.
 
 ### Built-in Data structure
 
@@ -130,7 +130,6 @@ this is a function
 > help(Object)
 > ```
 >
-> `Object`에는 `int`, `float` 등등 class의 keyword 이름을 적으시면 됩니다.
 
 ---
 
