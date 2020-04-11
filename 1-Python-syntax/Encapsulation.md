@@ -2,7 +2,11 @@
 
 이번 문서에서는 `encapsulation`의 개념과 python에서는 해당 개념을 어떻게 구현할 수 있는지 알아보도록 하겠습니다. Python에서 해당 개념을 완벽히 설명드리는 것은 굉장히 비효율적이라고 생각됩니다. 이해를 돕기위해 python 코드로 설명을 드릴 것이지만, 개념적인 내용을 설명하기위한 수단일 뿐이기 때문에 실제 python코드를 실행하면 개념과 내용이 틀릴 수 있습니다.
 
+## What is encapsulation
+
 Encapsulation를 개념적으로 설명하자면 object의 attribute와 behavior을 하나의 캡슐로 저장해 두겠다는 것입니다. 좀 더 와닿게 설명하자면 외부에서 object의 attribute나 behavior을 함부러 접근하지 못하도록 하겠다는 것입니다.
+
+## Access modifier
 
 그렇다고 모든 variable과 method에 접근하지 못하도록 막는다는 이야기가 아니라 사용자가 접근할 수 있는 variable과 method를 제한해두자는 것입니다. 접근을 제어하는 방식에는 `public`, `private`, `protected`가 있습니다. 그리고 이들 각각을 접근제어자(`Access modifier`)이라고 합니다. 
 
@@ -13,8 +17,6 @@ Encapsulation를 개념적으로 설명하자면 object의 attribute와 behavior
 | public          | 어디서든 접근 가능                                           |
 | private         | class의 code block내에서 호출할 때만 접근 가능               |
 | protected       | 자기 자신의 class를 포함하고, 자식 class의 code block 내에서 호출할 때만 접근 가능 |
-
-
 
 ### Public
 

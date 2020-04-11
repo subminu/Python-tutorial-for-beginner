@@ -28,7 +28,7 @@ Python tutorial for tutees in BlackWind at DGIST
      - [Abstraction](./1-Python-syntax/Abstraction.md)
      - [Encapsulation](./1-Python-syntax/Encapsulation.md)
      - [Inheritance](./1-Python-syntax/Inheritance.md)
-     - Polymorphism
+     - [Polymorphism](./1-Python-syntax/Polymorphism.md)
    - Try & Except
    - Modules
 
