@@ -30,11 +30,11 @@ Python tutorial for tutees in BlackWind at DGIST
      - [Inheritance](./1-Python-syntax/Inheritance.md)
      - [Polymorphism](./1-Python-syntax/Polymorphism.md)
    - [Errors & Exceptions](./1-Python-syntax/Errors-&-Exceptions.md)
-   - Modules
+   - [Modules & Packages](./1-Python-syntax/Modules-&-Packages.md)
 
 
 
-2. Virtual environment(Anaconda), Mange package(PIP)
+2. Virtual environment(Anaconda) & Mange package(PIP)
    * Basic use of anaconda prompt
    * PIP 
 
