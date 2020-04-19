@@ -81,7 +81,7 @@ instance = t.A()
 from test import a, hello, A
 print(a)
 hello()
-instace = A()
+instance = A()
 ```
 
 이때, `from ~~ import ~~`으로 불러온 객체들은 따로 `test.~~`와 같이 붙여줄 필요없이 곧장 사용가능합니다. 만약 `test.~~`를 사용하지 않고 `test.py`에 있는 객체들을 전부 사용하고 싶으면 다음과 같이 선언해주면 됩니다.
