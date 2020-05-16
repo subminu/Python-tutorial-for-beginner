@@ -1,5 +1,5 @@
 # PYTHON-TUTORIAL-FOR-BEGINNER
-Python tutorial for tutees in BlackWind at DGIST
+Python tutorial for tutees at DGIST
 
 ### Index
 
